@@ -16,7 +16,12 @@ body {
 }
 
 .app.warm {
-  background-image: url('./assets/bob-ross-winter.jpg');
+  background-image: url('./assets/cold-theme.jpg');
+  background-size: 100%;
+  background-position: bottom;
+  transition: 0.6 ease-in;
+  background-repeat: no-repeat;
+
 }
 
 main {
