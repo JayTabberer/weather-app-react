@@ -67,7 +67,8 @@ function App() {
 
           <div className="weather-box">
         <div className="temp">{Math.round(weather.main.temp)}°c</div>
-        <div className="weather">{weather.weather[0].main}</div>
+        <div className="weather">{weather.weather[0].description}</div>
+        <div className="feeling">Feels like {Math.round(weather.main.feels_like)}°c</div>
           </div>
           
         </div>
